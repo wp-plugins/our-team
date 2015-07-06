@@ -50,8 +50,9 @@ Available Customizations:
 2. Sidebar widget
 3. Drag & Drop re-order of memebers
 4. Honeycomb Demo
-5. stacked list Demo
+5. Round About Demo
 6. Carousel Demo
+7. Popup or side panel for single member view
 
 == Installation ==
 1. Download the plugin, then upload the zipped file to your site from the WordPress dashboard plugin uploader menu
