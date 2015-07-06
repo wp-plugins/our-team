@@ -1,7 +1,7 @@
 === Our Team ===
 Contributors: pearlcore
 Donate link: http://pearlcore.com
-Tags: team, staff, employees, widget, shortcode, members, carousel, brick, honeycomb, stack, grid, custom, template, social, profile, custom post type, portfolio, profile,meet team, skills, cv,v-card
+Tags: team, staff, employees, widget, shortcode, members, carousel, brick, honeycomb, stack, grid, custom, template, social, profile, custom post type, portfolio, meet team, skills, cv,v-card
 Requires at least: 4.2
 Tested up to: 4.2
 Stable tag: 1.0
@@ -20,6 +20,8 @@ add the shortcode [our-team] to the page, post or widget where you want to displ
 
 If your theme has a sidebar, you can use the extra custom sidebar widget to display the team members in the sidebar.
 
+For Demo:
+<a href="http://pearlcore.com/our-team-demo/">Our Team Plugin demo</a>
 
 
 Available Customizations:
@@ -47,9 +49,9 @@ Available Customizations:
 1. Plugin includes Grid boxes, Grid Circular and sidebar templates
 2. Sidebar widget
 3. Drag & Drop re-order of memebers
-4. PRO VERSION - Honeycomb Demo
-5. PRO VERSION - stacked list Demo
-6. PRO VERSION - Carousel Demo
+4. Honeycomb Demo
+5. stacked list Demo
+6. Carousel Demo
 
 == Installation ==
 1. Download the plugin, then upload the zipped file to your site from the WordPress dashboard plugin uploader menu
