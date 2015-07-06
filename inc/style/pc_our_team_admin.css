@@ -1,0 +1,115 @@
+/* 
+    Document   : pc_our_team_admin
+    Created on : Jun 25, 2014, 10:07:44 PM
+    Author     : Pearlcore
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.pc_team_member{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+.pc_team_member img{
+    width: 100%;
+}
+
+.pc_team_member_update_status .pc_team_member_updating,
+.pc_team_member_update_status .pc_team_member_saved{
+    display: none;
+}
+
+.pc_team_member_inner{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    cursor: move;
+}
+.pc_team_member_overlay{
+    position: absolute;
+    height: 20px;
+    color: #fff;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    line-height: 20px;
+    background: rgba(50,50,50,0.5);
+}
+
+#features {
+    margin: auto;
+    width: 460px;
+    font-size: 0.9em;
+}
+.connected, .pc_sortable, .exclude, .handles {
+    margin: auto;
+    padding: 0;
+    width: 450px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.pc_sortable.grid {
+    overflow: hidden;
+}
+.connected li, .pc_sortable li, .exclude li, .handles li {
+    list-style: none;
+    border: 1px solid #CCC;
+    background: #F6F6F6;
+    font-family: "Tahoma";
+    color: #1C94C4;
+    margin: 5px;
+    padding: 5px;
+    height: 22px;
+}
+.handles span {
+    cursor: move;
+}
+li.disabled {
+    opacity: 0.5;
+}
+.pc_sortable.grid li {
+    line-height: 80px;
+    float: left;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+li.highlight {
+    background: #FEE25F;
+}
+#connected {
+    width: 440px;
+    overflow: hidden;
+    margin: auto;
+}
+.connected {
+    float: left;
+    width: 200px;
+}
+.connected.no2 {
+    float: right;
+}
+li.pc_sortable-placeholder {
+    border: 1px dashed #CCC;
+    background: none;
+}
+.pc_options_table{
+    float: left;
+    width: 45%;
+
+}
+.pc_options_table a.button{
+    /*margin-bottom: 5px;*/
+}
+#pearlcore_team_member_info_box .pc_options_table h2{
+    margin: 0;
+}
